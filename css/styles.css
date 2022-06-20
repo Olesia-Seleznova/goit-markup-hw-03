@@ -14,18 +14,38 @@ body {
     background-color: var(--secondary-background-color);
 }
 
+/* Utils */
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
+}
+
+.page-header {
+    outline: 5px solid red;
+}
+
+/* main-nav */
+.main-nav  {
+    display: flex;
+    align-items: center;
+    padding-left: 215px;
+    padding-right: 215px;
 }
 
 /* logo */
 .page-logo {
+    display: flex;
+    margin-right: 95px;
+
     color: var(--secondary-text-color); 
     font-family: 'Raleway', serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.20;
     text-decoration: none;
+
+    background-color: teal;
 }
 
 .page-logo:hover,
@@ -43,21 +63,27 @@ body {
 }
 
 .site-nav {
-display: flex;
-background-color: tomato;
+    display: flex;
+    margin-right: 330px;
+    background-color: red;
+
 }
 
-.site-nav .item {
-    margin-right: 50px;
-   
+.site-nav .item + .item {
+    margin-left: 50px   ;
 }
+
 .site-nav .link {
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 30px;
+
+    color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--secondary-text-color);
     }
 
 .site-nav .link:hover,
@@ -69,13 +95,27 @@ background-color: tomato;
     color: var(--accent-color);
 }
 
+/* auth-nav */
+.auth-nav {
+    display: flex;
+    background-color: yellow;
+}
+
 .auth-nav .link {
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 30px;
+
+    color: #757575;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
-    color: #757575;
+    text-decoration: none; 
+}
+
+.auth-nav .item + .item {
+    margin-left: 50px;
 }
 
  .auth-nav .link:hover,
