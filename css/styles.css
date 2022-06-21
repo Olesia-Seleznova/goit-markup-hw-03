@@ -123,8 +123,10 @@ body {
 
 /* Herro */
 .herro {
+    width: 1600px;
     line-height: 1.36;
     text-align: center;
+    
     background-color: #2F303A;
 }
 
@@ -181,6 +183,7 @@ body {
 .features-list {
     display: flex;
     list-style: none;
+    width: 1170px;
 }
 
  /*прихований заголовок*/
@@ -220,8 +223,32 @@ body {
 }
 
 /* work */
+.work-section {
+    margin: 95px 215px;
+
+    width: 1170px;
+    align-items: center;
+}
+
 .work .link {
+    display: flex;
+    flex-direction: row;
     background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
+}
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.work-list .link + .link {
+    margin-left: 30px;
+}
+.work {
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 
 /* team */
