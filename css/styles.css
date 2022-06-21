@@ -164,12 +164,11 @@ body {
 }
 
 /* features */
-.features {
+.features-section {
     display: flex;
+    margin: 95px 215px;
     align-items: center;
-    margin: 95 px 215px;
-    outline: 5px solid red;
-}
+   }
 
 .section-title {
     font-weight: 700;
@@ -177,6 +176,11 @@ body {
     line-height: 1.17;
     text-align: center;
     color: var(--secondary-text-color);
+}
+
+.features-list {
+    display: flex;
+    list-style: none;
 }
 
  /*прихований заголовок*/
@@ -191,9 +195,15 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+ }
+
+ .features-list .features-list-li + .features-list-li {
+    margin-left: 30px;
+ }
 
 .title {
+    margin-top: 0;
+    margin-bottom: 10px;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
@@ -203,6 +213,8 @@ body {
 }
 
 .text {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 14px;
     line-height: 1.71;
 }
