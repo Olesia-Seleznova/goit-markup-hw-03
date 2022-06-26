@@ -6,7 +6,7 @@
     --secondary-background-color: #FFFFFF;
 }
 
-reset
+/* reset */
 html {
 	box-sizing: border-box;
 }
@@ -66,14 +66,6 @@ body {
 
 .page-header {
     background-color: var(--secondary-background-color);
-}
-
-.hero-container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .container {
@@ -192,7 +184,7 @@ body {
 }
 
 .hero-title {
-    width: 696px;
+    width: 600px;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -207,7 +199,7 @@ body {
 }
 
 .btn {
-    padding: 10px 32px 10px 32px;
+    padding: 10px 25px;
 
     font-weight: 700;
     font-size: 16px;
@@ -231,10 +223,10 @@ body {
 
 /* features */
 .section-title {
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;
     color: var(--secondary-text-color);
 }
 
@@ -401,9 +393,8 @@ body {
 }
 
 .footer-adress-list {
-    padding-top: 20px;
     padding-left: 0;    
-    margin: 0;
+    margin-top: 20px;
     list-style: none;
 }
 
@@ -412,7 +403,7 @@ body {
 }
 
 .footer-adress-list .item {
-margin-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .footer-adress-list .item:last-child {
@@ -439,7 +430,7 @@ margin-bottom: 9px;
 /* potfolio/css */
 .portfolio-container {
     display: flex;
-    padding-bottom: 34px;
+    padding-bottom: 50px;
     justify-content: center;
 }
 
