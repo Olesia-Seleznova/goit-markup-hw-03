@@ -29,14 +29,15 @@ p {
 .ul {
 	list-style: none;
 	padding-left: 0;
+    padding: 0;
 	margin: 0;
 }
-/* Класс для обнуления базовых свойств у ссылок */
+
 .a {
 	text-decoration: none;
 	color: inherit;
 }
-/* Свойства для корректного отображения картинок */
+
 img {
 	display: block;
 	max-width: 100%;
@@ -309,6 +310,10 @@ body {
     margin-left: 30px;
 }
 
+.work-list .link + .link:not(:last-child) {
+    margin-left: 30px;
+}
+
 .work {
     margin-top: 0;
     margin-bottom: 50px;
@@ -342,6 +347,7 @@ body {
 
 .main-team {
     display: flex;
+    padding-left: 0;
 }
 
 .team-list {
@@ -396,6 +402,7 @@ body {
 }
 
 .footer-adress-list {
+    padding-top: 20px;
     padding-left: 0;    
     margin: 0;
     list-style: none;
