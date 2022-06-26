@@ -44,7 +44,6 @@ img {
 	height: auto;
 }
 
-/* Utils */
 .list {
     padding: 0;
     margin: 0;
@@ -412,6 +411,14 @@ body {
     margin-right: 0;
 }
 
+.footer-adress-list .item {
+margin-bottom: 9px;
+}
+
+.footer-adress-list .item:last-child {
+    margin-bottom: 0;
+}
+
 .adress-link,
 .contacts-link {
     font-style: normal;
@@ -430,32 +437,17 @@ body {
 }
 
 /* potfolio/css */
-.portfolio {
-    width: 1200px;
-    margin-top: 94px;
-    margin-bottom: 94px;
-    margin-left: 215px;
-    margin-right: 215px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 .portfolio-container {
     display: flex;
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 611px;
-    padding-top: 0;
     padding-bottom: 34px;
     justify-content: center;
 }
 
 .portfolio-btn {
-    margin-right: 8px;
     padding: 6px 22px 6px 22px;
     font-weight: 500;
     font-size: 16px;
+    border-radius: 4px;
 
     line-height: 1.63;
     text-align: center;
@@ -463,6 +455,10 @@ body {
     color: var(--secondary-text-color);
     background-color: #F5F4FA;
     border: transparent;
+}
+
+.portfolio-btn + .portfolio-btn {
+    margin-left: 8px;
 }
 
  .portfolio-btn:hover,
@@ -478,21 +474,12 @@ body {
     color: var(--secondary-background-color);
  }
 
-.list-conteiner {
-    width: 1200px;
-    padding-left: 15 px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
- }  
-
 .flex-conteiner {
     display: flex;
     flex-wrap: wrap;
  }
  
 .work-text {
-    margin-top: 0;
     margin-bottom: 20px;
 
     font-size: 16px;
