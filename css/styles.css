@@ -393,7 +393,6 @@ body {
 
 .footer-addres {
     margin-top: 20px;
-    padding-bottom: 60px;
 }
 
 .footer-adress-list {
@@ -480,7 +479,8 @@ body {
  }
  
 .work-text {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
 
     font-size: 16px;
     line-height: 30px;
@@ -495,7 +495,7 @@ body {
 }
 
 .list-title {
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 4px;
     
     font-size: 18px;
